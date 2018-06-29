@@ -1,0 +1,103 @@
+body {
+	background-color: black;
+}
+div{
+	background-color: white;
+	margin: 10px;
+	width: 25%
+}
+div{
+	border: solid 2px red;
+	padding: 10px;
+	
+}
+h1, h3, span{
+	font-weight: bold;
+	text-align: center;
+}
+h1{
+	font-size: 30pt;
+}
+ol{
+	list-style: decimal inside; 
+}
+ul {
+	list-style: disc inside;
+	text-indent: 20px;
+}
+/* Specfic Elements*/
+div.header,
+.instructions,
+div.heros{
+	background-color: #e0e0eb;
+}
+div.header, div.instructions{
+	width: 50%;
+}
+/* Classes */
+.numberToMatch, .winsAndLosses{
+	float: left;
+	width: 15%;
+	/*height: 60px;*/
+}
+.userTotal{
+	width: 15%;
+	/*height: 60px;*/
+}
+.heros{
+	clear: both;
+}
+.SuperHero{
+	height: 60px;
+	width: 60px;
+	margin: 10px;
+}
+/* IDs */
+#batman{
+	color: Black;
+	
+}
+#superman{
+	color: Blue;
+	
+}
+#spiderman{
+	color: Red;
+	
+}
+#ironman{
+	color: goldenrod;
+	
+}
+
+#one{
+	margin-left: 30%;
+	background-color: black;
+	background-image: url("../images/Batman.jpg");
+	background-size: 134%;
+	background-position: center;
+}
+#two{
+	margin-left: 30%;
+	background-color: Blue;
+	background-image: url("../images/Superman.jpg");
+	background-size: 190%;
+	background-position: center;
+}
+#three{
+	margin-left: 30%;
+	background-color: red;
+	background-image: url("../images/Spiderman.png");
+	background-size: 200%;
+	background-position: center;
+}
+#four{
+	margin-left: 30%;
+	background-color: goldenrod;
+	background-image: url("../images/Ironman.jpg");
+	background-size: 190%;
+	background-position: center;
+}
+
+
+

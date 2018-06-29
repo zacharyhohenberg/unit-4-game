@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Super Hero</title>
+    <link rel="stylesheet" type="text/css" href="./assets/css/reset.css">
+    <link rel="stylesheet" type="text/css" href="./assets/css/style.css">
+    <link rel="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css">
+</head>
+<body>
+    <div class="header">
+        <h1>Super Hero</h1>
+    </div>
+    <div class="instructions">
+        <h3>Instructions</h3>
+        <ol>
+            <br> Players will be assigned a random number to begin the game. The object of the game is to capture 4 superheros.</br>
+                <br>
+                <li id="batman">Batman</li>
+                <li id="superman">Superman</li>
+                <li id="spiderman">Spiderman</li>
+                <li id="ironman">Iron Man</li>
+        </ul>
+            <br>Collect points by capturing heros. Click the heros to discover their value. Capture enough heros to match the assigned number. Capture more heros than the assigned number and lose the game.</br>
+            <br>
+            <!--WHEN THE GAME STARTS HERO VALUES CHANGE-->
+        </ol>
+    </div>
+    <div class="numberToMatch">
+        <h2>Hero Goal:
+            <span id= "randomNumber"></span>
+        </h2>
+    </div>
+    <div class="winsAndLosses">
+        <h2>Wins:
+            <span id="numberWins"></span>
+            <br>
+            Losses:
+            <span id="numberLosses"></span>
+        </h2>
+    </div>
+    <div class="heros">
+        <div class="SuperHero" id="one"></div>
+        <div class="SuperHero" id="two"></div>
+        <div class="SuperHero" id="three"></div>
+        <div class="SuperHero" id="four"></div>
+    </div>
+    <div class="userTotal">
+        <h2>Total score is:
+            <span id="finalTotal"></span>
+        </h2>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script type="text/javascript" src="./assets/javascript/game.js">
+    </script>
+</body>
+</html>
